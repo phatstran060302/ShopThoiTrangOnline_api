@@ -25,6 +25,7 @@ namespace NguyenTranHoangPhat_Dl1.Data
         public bool IsHome { get; set; }
         public bool IsSale { get; set; }
         public int Position { get; set; }
+        // sửa nè
         
     }
 }
