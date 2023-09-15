@@ -11,7 +11,6 @@ namespace NguyenTranHoangPhat_Dl1.Data
         [Required(ErrorMessage = "Tên danh mục không được để trống!!!")]
         [StringLength(150)]
         public string Title { get; set; }
-        
         public string? Alias { get; set; }
         public string? Link { get; set; }
         [StringLength(150)]
@@ -25,7 +24,6 @@ namespace NguyenTranHoangPhat_Dl1.Data
         public bool IsHome { get; set; }
         public bool IsSale { get; set; }
         public int Position { get; set; }
-        // sửa nè
-        
+        // NoteGhichu
     }
 }
