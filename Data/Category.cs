@@ -9,7 +9,7 @@ namespace NguyenTranHoangPhat_Dl1.Data
         [Key]
         public int Id { get; set; }
         [Required(ErrorMessage = "Tên danh mục không được để trống!!!")]
-
+        // abcs
         [StringLength(150)]
         public string Title { get; set; }
         
@@ -23,6 +23,7 @@ namespace NguyenTranHoangPhat_Dl1.Data
         [StringLength(150)]
         public string? SeoKeywords { get; set; }
         public bool IsActive { get; set; }
-        public int Position { get; set; }
+        //public int Position { get; set; }
+        //alo nghĩa
     }
 }
